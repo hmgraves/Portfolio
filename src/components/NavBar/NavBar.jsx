@@ -1,20 +1,16 @@
 import { Link } from "react-router-dom"
-import * as userService from '../../utilities/users-service';
+import './NavBar.css';
 
 const NavBar = ({ user, setUser }) => {
-	const handleLogOut = () => {
-		userService.logOut();
-		setUser(null);
-	}
 	return (
-		<nav>
-			<span>Welcome, {user.name}</span>
+		<nav className="navbar">
+			<Link to="/orders" className="link" style={{textDecoration: 'none', color: 'blue'}}>About me</Link>
 			&nbsp; | &nbsp;
-			<Link to="/orders">Order History</Link>
+			<Link to="/orders/new" className="link" style={{textDecoration: 'none', color: 'blue'}}>Skills & Tools</Link>
 			&nbsp; | &nbsp;
-			<Link to="/orders/new">New Order</Link>
+			<Link to="" className="link" style={{textDecoration: 'none', color: 'blue'}}>Work</Link>
 			&nbsp; | &nbsp;
-			<Link to="" onClick={handleLogOut}>Log Out</Link>
+			<Link to="" className="link" style={{textDecoration: 'none', color: 'blue'}}>Contact</Link>
 		</nav>
 	)
 }

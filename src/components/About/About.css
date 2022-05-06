@@ -1,0 +1,21 @@
+.photo {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(2);
+}
+
+.col {
+	float: left;
+	width: 50%;
+	padding: 30px;
+}
+
+.about-text {
+	padding-top: 90px;
+}
