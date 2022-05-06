@@ -1,16 +1,18 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import './NavBar.css';
+import * as Scroll from 'react-scroll';
+const Link = Scroll.Link;
 
 const NavBar = ({ user, setUser }) => {
 	return (
 		<nav className="navbar">
-			<Link to="/orders" className="link" style={{textDecoration: 'none', color: 'blue'}}>About me</Link>
+			<Link to="about" className="link" style={{textDecoration: 'none', color: 'blue'}}>About me</Link>
 			&nbsp; | &nbsp;
-			<Link to="/orders/new" className="link" style={{textDecoration: 'none', color: 'blue'}}>Skills & Tools</Link>
+			<Link to="skills" className="link" style={{textDecoration: 'none', color: 'blue'}}>Skills & Tools</Link>
 			&nbsp; | &nbsp;
-			<Link to="" className="link" style={{textDecoration: 'none', color: 'blue'}}>Work</Link>
+			<Link to="work" className="link" style={{textDecoration: 'none', color: 'blue'}}>Work</Link>
 			&nbsp; | &nbsp;
-			<Link to="" className="link" style={{textDecoration: 'none', color: 'blue'}}>Contact</Link>
+			<Link to="contact" className="link" style={{textDecoration: 'none', color: 'blue'}}>Contact</Link>
 		</nav>
 	)
 }

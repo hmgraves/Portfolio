@@ -4,7 +4,7 @@ import React from 'react'
 const Skills = () => {
 	return (
 		<div className="container skills">
-			<h3>SKILLS & TOOLS</h3>
+			<h2>SKILLS & TOOLS</h2>
 			<div class="row">
 				<div class="column">
 					<div className="icon">
@@ -98,7 +98,7 @@ const Skills = () => {
 				</div>
 			</div>
 		</div>
-	)
+	);
 };
 
 export default Skills;

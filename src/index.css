@@ -24,6 +24,7 @@ body {
 	background-color: var(--cream);
 	padding: 2vmin;
 	height: 100vh;
+	/* position: absolute; */
 }
 
 code {
@@ -103,53 +104,18 @@ label {
 	align-items: center;
 }
 
-input {
-	padding: 1vmin;
-	font-size: 2vmin;
-	border: 0.1vmin solid var(--tan-3);
-	border-radius: 0.5vmin;
-	color: var(--text-dark);
-	background-image: none !important; /* prevent lastpass */
-	outline: none;
-}
-
-input:focus {
-	border-color: var(--orange);
-}
-
-button,
-a.button {
-	margin: 1vmin;
-	padding: 1vmin;
-	color: var(--white);
-	background-color: var(--orange);
-	font-size: 2vmin;
-	font-weight: bold;
+button {
+	background-color: var(--blue);
+	border-color: var(--blue);
+	height: 30px;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+	monospace;
 	text-decoration: none;
-	text-align: center;
-	border: 0.1vmin solid var(--tan-2);
-	border-radius: 0.5vmin;
-	outline: none;
-	cursor: pointer;
+	color: blue;
 }
 
-button.btn-sm {
-	font-size: 1.5vmin;
-	padding: 0.6vmin 0.8vmin;
-}
-
-button.btn-xs {
-	font-size: 1vmin;
-	padding: 0.4vmin 0.5vmin;
-}
-
-button:disabled,
-form:invalid button[type="submit"] {
-	cursor: not-allowed;
-	background-color: var(--tan-4);
-}
-
-button[type="submit"] {
-	grid-column: span 2;
-	margin: 1vmin 0 0;
+.button {
+	display: block;
+	margin-top: 50px;;
+	text-decoration: none;
 }

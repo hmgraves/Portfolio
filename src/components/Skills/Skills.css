@@ -2,9 +2,8 @@
 	background-color: var(--pink);
 	left: 0;
 	right: 0;
-	position: absolute;
 	display: grid;
-	padding: 50px;
+	padding: 60px;
 }
 
 .icon {
@@ -17,6 +16,11 @@ i {
 	background-color: white;
 	color: var(--pink);
 	border-radius: 10px;
+	border: white solid 2px;
+}
+
+.row {
+	padding-left: 50px;
 }
 
 .column {
