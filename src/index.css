@@ -127,5 +127,5 @@ button {
 	left: 0;
 	right: 0;
 	display: grid;
-	padding: 60px;
+	padding: 60px !important;
 }
