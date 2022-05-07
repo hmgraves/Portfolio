@@ -36,6 +36,7 @@ const Work = () => {
 						<Link to="https://github.com/hmgraves/Plant-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue'}}>
 							View on GitHub
 						</Link>
+						<a href="https://vines-app.herokuapp.com/">View on Heroku</a>
 					</div>
 
 				</div>
