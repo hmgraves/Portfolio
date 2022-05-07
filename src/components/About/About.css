@@ -2,6 +2,7 @@
 	height: 300px;
 	width: 300px;
 	border-radius: 50%;
+	margin-left: 100px;
 }
 
 .container {
@@ -15,6 +16,6 @@
 }
 
 .about-text {
-	padding-top: 90px;
+	padding-top: 135px;
 	padding-right: 130px;
 }
