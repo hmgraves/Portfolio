@@ -142,4 +142,11 @@ button {
 	font-size: 20px !important;
 };
 
+.photo {
+	height: 300px;
+	width: 300px;
+	border-radius: 50% !important;
+	margin-left: 100px !important;
+}
+
 
