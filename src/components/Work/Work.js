@@ -29,14 +29,13 @@ const Work = () => {
 					<img className="vines-img img-right" src={vines} alt="vines..." />
 					<div className='btn-block'>
 					<br /><br /><br /><br />
-						<Link to="https://vines-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
+						<a href="https://vines-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 							View on Heroku
-						</Link>
+						</a>
 						<br /><br />
-						<Link to="https://github.com/hmgraves/Plant-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue'}}>
+						<a href="https://github.com/hmgraves/Plant-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue'}}>
 							View on GitHub
-						</Link>
-						<a href="https://vines-app.herokuapp.com/">View on Heroku</a>
+						</a>
 					</div>
 
 				</div>
@@ -47,9 +46,9 @@ const Work = () => {
 				<div className="cols">
 					<img className="cars-img img-left" src={cars} alt="cars..." />
 					<br /><br /><br /><br />
-					<Link to="https://github.com/hmgraves/carcollector" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
+					<a href="https://github.com/hmgraves/carcollector" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 						View on GitHub
-					</Link>
+					</a>
 				</div>
 				<div className="cols align-rt">
 					<h3 className='title'>CarCollector</h3>
@@ -83,13 +82,13 @@ const Work = () => {
 					<img className="mines-img img-right" src={travel} alt="mines..." />
 					<div className='btn-block'>
 					<br /><br /><br /><br />
-						<Link to="https://sei-travel-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
+						<a href="https://sei-travel-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 							View on Heroku
-						</Link>
+						</a>
 						<br /><br />
-						<Link to="https://github.com/hmgraves/travel-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
+						<a href="https://github.com/hmgraves/travel-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 							View on GitHub
-						</Link>
+						</a>
 					</div>
 
 				</div>
@@ -100,13 +99,13 @@ const Work = () => {
 				<div className="cols">
 					<img className="mines-img img-left" src={mines} alt="mines..." />
 					<br /><br /><br /><br />
-					<Link to="https://hmgraves.github.io/Minesweeper/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue'}}>
+					<a href="https://hmgraves.github.io/Minesweeper/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue'}}>
 						View on GitHub Pages
-					</Link>
-					<br /><br />
-					<Link to="https://github.com/hmgraves/Minesweeper" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue',  }}>
+					</a>
+					<br /><br /><br />
+					<a href="https://github.com/hmgraves/Minesweeper" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue',  }}>
 						View on GitHub
-					</Link>
+					</a>
 				</div>
 				<div className="cols align-rt">
 					<h3 className='title'>Minesweeper</h3>
