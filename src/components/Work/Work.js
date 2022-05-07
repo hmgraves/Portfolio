@@ -26,7 +26,7 @@ const Work = () => {
 					</p>
 				</div>
 				<div className="cols button">
-					<img className="vines-img img-right" src={vines} alt="vines..." />
+					<img className="work-img img-right" src={vines} alt="vines..." />
 					<div className='btn-block'>
 					<br /><br /><br /><br />
 						<a href="https://vines-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
@@ -44,7 +44,7 @@ const Work = () => {
 			{/* CarCollector */}
 			<div className="row">
 				<div className="cols">
-					<img className="cars-img img-left" src={cars} alt="cars..." />
+					<img className="work-img img-left" src={cars} alt="cars..." />
 					<br /><br /><br /><br />
 					<a href="https://github.com/hmgraves/carcollector" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 						View on GitHub
@@ -79,7 +79,7 @@ const Work = () => {
 					</p>
 				</div>
 				<div className="cols">
-					<img className="mines-img img-right" src={travel} alt="mines..." />
+					<img className="work-img img-right" src={travel} alt="mines..." />
 					<div className='btn-block'>
 					<br /><br /><br /><br />
 						<a href="https://sei-travel-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
@@ -97,7 +97,7 @@ const Work = () => {
 			{/* Minesweeper */}
 			<div className="row">
 				<div className="cols">
-					<img className="mines-img img-left" src={mines} alt="mines..." />
+					<img className="work-img img-left" src={mines} alt="mines..." />
 					<br /><br /><br /><br />
 					<a href="https://hmgraves.github.io/Minesweeper/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue'}}>
 						View on GitHub Pages
