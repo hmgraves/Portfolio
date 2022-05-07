@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.8c11534c.css",
+    "main.js": "/Portfolio/static/js/main.96895ec2.js",
+    "static/media/Minesweeper.png": "/Portfolio/static/media/Minesweeper.f2d2cdfef28b9e3de838.png",
+    "static/media/Hannah.png": "/Portfolio/static/media/Hannah.aacc175582d90ec6421d.png",
+    "static/media/travel.png": "/Portfolio/static/media/travel.05e2e5f4d2e7edb35978.png",
+    "static/media/vines.png": "/Portfolio/static/media/vines.da9e486abfaadd5fd974.png",
+    "static/media/carcollector.png": "/Portfolio/static/media/carcollector.da051040c56c56bd2c7f.png",
+    "index.html": "/Portfolio/index.html",
+    "main.8c11534c.css.map": "/Portfolio/static/css/main.8c11534c.css.map",
+    "main.96895ec2.js.map": "/Portfolio/static/js/main.96895ec2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c11534c.css",
+    "static/js/main.96895ec2.js"
+  ]
+}
