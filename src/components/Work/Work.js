@@ -3,7 +3,7 @@ import mines from '../../Images/Minesweeper.png';
 import vines from '../../Images/vines.png';
 import cars from '../../Images/carcollector.png';
 import travel from '../../Images/travel.png';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Work = () => {
 	return (
@@ -18,20 +18,20 @@ const Work = () => {
 					<p>
 						Built with:
 						<i className="devicon-javascript-plain opposite small-icon"></i>
-						<i class="devicon-nodejs-plain small-icon"></i>
-						<i class="devicon-mongodb-plain small-icon"></i>
-						<i class="devicon-express-original small-icon"></i>
-						<i class="devicon-css3-plain small-icon"></i>
-						<i class="devicon-html5-plain small-icon"></i>
+						<i className="devicon-nodejs-plain small-icon"></i>
+						<i className="devicon-mongodb-plain small-icon"></i>
+						<i className="devicon-express-original small-icon"></i>
+						<i className="devicon-css3-plain small-icon"></i>
+						<i className="devicon-html5-plain small-icon"></i>
 					</p>
 				</div>
 				<div className="cols button">
 					<img className="vines-img img-right" src={vines} alt="vines..." />
 					<div className='btn-block'>
-						<Link to="https://vines-app.herokuapp.com/" style={{ textDecoration: 'none' }}>
+						<Link to="https://vines-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer' }}>
 							<button className='button btn-right'>View on Heroku</button>
 						</Link>
-						<Link to="https://github.com/hmgraves/Plant-app" style={{ textDecoration: 'none' }}>
+						<Link to="https://github.com/hmgraves/Plant-app" style={{ textDecoration: 'none', cursor: 'pointer' }}>
 							<button className='button btn-right'>View on GitHub</button>
 						</Link>
 					</div>
@@ -43,7 +43,7 @@ const Work = () => {
 			<div className="row">
 				<div className="cols">
 					<img className="cars-img img-left" src={cars} alt="cars..." />
-					<Link to="https://github.com/hmgraves/carcollector" style={{ textDecoration: 'none' }}>
+					<Link to="https://github.com/hmgraves/carcollector" style={{ textDecoration: 'none', cursor: 'pointer' }}>
 						<button className='button'>View on GitHub</button>
 					</Link>
 				</div>
@@ -53,10 +53,10 @@ const Work = () => {
 					<p>
 						Built with:
 						<i className="devicon-python-plain small-icon"></i>
-						<i class="devicon-postgresql-plain small-icon"></i>
-						<i class="devicon-django-plain small-icon"></i>
-						<i class="devicon-css3-plain small-icon"></i>
-						<i class="devicon-html5-plain small-icon"></i>
+						<i className="devicon-postgresql-plain small-icon"></i>
+						<i className="devicon-django-plain small-icon"></i>
+						<i className="devicon-css3-plain small-icon"></i>
+						<i className="devicon-html5-plain small-icon"></i>
 					</p>
 				</div>
 			</div>
@@ -69,19 +69,19 @@ const Work = () => {
 					<p>
 						Built with:
 						<i className="devicon-python-plain small-icon"></i>
-						<i class="devicon-postgresql-plain small-icon"></i>
-						<i class="devicon-django-plain small-icon"></i>
-						<i class="devicon-css3-plain small-icon"></i>
-						<i class="devicon-html5-plain small-icon"></i>
+						<i className="devicon-postgresql-plain small-icon"></i>
+						<i className="devicon-django-plain small-icon"></i>
+						<i className="devicon-css3-plain small-icon"></i>
+						<i className="devicon-html5-plain small-icon"></i>
 					</p>
 				</div>
 				<div className="cols">
 					<img className="mines-img img-right" src={travel} alt="mines..." />
 					<div className='btn-block'>
-						<Link to="https://sei-travel-app.herokuapp.com/" style={{ textDecoration: 'none' }}>
+						<Link to="https://sei-travel-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer' }}>
 							<button className='button btn-right'>View on Heroku</button>
 						</Link>
-						<Link to="https://github.com/hmgraves/travel-app" style={{ textDecoration: 'none' }}>
+						<Link to="https://github.com/hmgraves/travel-app" style={{ textDecoration: 'none', cursor: 'pointer' }}>
 							<button className='button btn-right'>View on GitHub</button>
 						</Link>
 					</div>
@@ -93,28 +93,28 @@ const Work = () => {
 			<div className="row">
 				<div className="cols">
 					<img className="mines-img img-left" src={mines} alt="mines..." />
-					<Link to="https://hmgraves.github.io/Minesweeper/" style={{ textDecoration: 'none' }}>
+					<Link to="https://hmgraves.github.io/Minesweeper/" style={{ textDecoration: 'none', cursor: 'pointer' }}>
 						<button className='button'>View on GitHub Pages</button>
 					</Link>
-					<Link to="https://github.com/hmgraves/Minesweeper" style={{ textDecoration: 'none' }}>
+					<Link to="https://github.com/hmgraves/Minesweeper" style={{ textDecoration: 'none', cursor: 'pointer' }}>
 						<button className='button'>View on GitHub</button>
 					</Link>
 				</div>
-				<div class="cols align-rt">
+				<div className="cols align-rt">
 					<h3 className='title'>Minesweeper</h3>
 					<p>This is the classic game, Minesweeper. This was the second game ever built by Hannah. The most difficult part of building this game, was using recursion!</p>
 					<p>
 						Built with:
 						<i className="devicon-javascript-plain opposite small-icon"></i>
-						<i class="devicon-css3-plain small-icon"></i>
-						<i class="devicon-html5-plain small-icon"></i>
-						<i class="devicon-jquery-plain small-icon"></i>
+						<i className="devicon-css3-plain small-icon"></i>
+						<i className="devicon-html5-plain small-icon"></i>
+						<i className="devicon-jquery-plain small-icon"></i>
 					</p>
 				</div>
 			</div>
 
 		</div>
-	)
+	);
 
 };
 

@@ -1,0 +1,10 @@
+.contact {
+	background-color: var(--rose);
+	padding: 60px;
+}
+
+.column {
+	float: left;
+	width: 33%;
+	padding: 30px;
+}

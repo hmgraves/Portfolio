@@ -1,4 +1,6 @@
 import About from "../../components/About/About";
+import Contact from "../../components/Contact/Contact";
+import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 import Skills from "../../components/Skills/Skills";
 import Work from "../../components/Work/Work";
@@ -18,6 +20,8 @@ const App = () => {
 			<About />
 			<Skills />
 			<Work />
+			<Contact />
+			<Footer />
 		</main>
 	);
 };
