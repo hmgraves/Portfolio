@@ -53,4 +53,6 @@ i {
 
 .btn-block {
 	display: grid;
+	float: right;
+	padding-right: 50px;
 }
