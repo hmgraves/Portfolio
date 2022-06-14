@@ -6,10 +6,10 @@ const About = () => {
 		<div className='container' id="about">
 			<div className='row'>
 				<div className='col'>
-					<br /><br />
+					<br />
 					<h2>ABOUT</h2>
 					<aside>
-						<img className="photo" src={Hannah} alt="author..."/>
+						<img className="photo" src={Hannah} alt="author..." />
 					</aside>
 				</div>
 				

@@ -16,6 +16,7 @@
 .title {
 	color: var(--violet);
 	font-size: 25px;
+	margin: 0;
 }
 
 .work-img {
@@ -55,4 +56,34 @@ i {
 	display: grid;
 	float: right;
 	padding-right: 50px;
+}
+
+@media (max-width: 800px) {
+	.work-img {
+		height: 100%;
+		width: 100%;
+	}
+
+	/* .cols {
+		padding: 5px;
+	}
+
+	.title {
+		position: relative;
+	} */
+
+	p {
+		position: inherit;
+	}
+
+	.cols {
+		width: 100%;
+	}
+	.img-left {
+		float: left;
+		margin-right: 55px;
+	}
+	.align-rt {
+		text-align: left;
+	}
 }

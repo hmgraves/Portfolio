@@ -6,7 +6,7 @@ const Contact = () => {
 		<div className="container contact">
 			<h2>CONTACT</h2>
 			<div className="row">
-				<div className="column">
+				<div className="contact-col">
 					<a href="https://www.linkedin.com/in/hannah-m-graves/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
 						<div className="icon">
 							<i className="devicon-linkedin-plain"></i>
@@ -15,7 +15,7 @@ const Contact = () => {
 					</a>
 
 				</div>
-				<div className="column">
+				<div className="contact-col">
 					<a href="https://github.com/hmgraves" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
 						<div className="icon">
 							<i className="devicon-github-plain"></i>
@@ -23,7 +23,7 @@ const Contact = () => {
 						</div>
 					</a>
 				</div>
-				<div className="column">
+				<div className="contact-col">
 					<a href="https://drive.google.com/file/d/1S9Z6A4AbM7XhLF5pjGYKAXOPSHq9ZYlX/view?usp=sharing" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
 						<div className="icon">
 							<i className="devicon-google-plain"></i>
@@ -31,7 +31,7 @@ const Contact = () => {
 						</div>
 					</a>
 				</div>
-				<div className='column'>
+				<div className='contact-col email'>
 					Email: <a href="hannahmgraves@hotmail.com" style={{ textDecoration: 'none', color: 'black' }}>hannahmgraves@gmail.com</a>
 				</div>
 			</div>

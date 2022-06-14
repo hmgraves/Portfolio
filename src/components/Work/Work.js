@@ -37,7 +37,9 @@ const Work = () => {
 						<i className="devicon-html5-plain small-icon"></i>
 					</p>
 				</div>
+				<hr />
 			</div>
+
 
 			{/* Vines */}
 			<div className="row">
@@ -68,6 +70,7 @@ const Work = () => {
 					</div>
 
 				</div>
+				<hr />
 			</div>
 
 			{/* CarCollector */}
@@ -91,6 +94,7 @@ const Work = () => {
 						<i className="devicon-html5-plain small-icon"></i>
 					</p>
 				</div>
+				<hr />
 			</div>
 
 			{/* Travel */}
@@ -108,6 +112,7 @@ const Work = () => {
 					</p>
 				</div>
 				<div className="cols">
+					<br /><br />
 					<img className="work-img img-right" src={travel} alt="mines..." />
 					<div className='btn-block'>
 						<br /><br /><br /><br />
@@ -118,9 +123,12 @@ const Work = () => {
 						<a href="https://github.com/hmgraves/travel-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 							View on GitHub
 						</a>
+						
 					</div>
-
+					
 				</div>
+				<br />
+				<hr />
 			</div>
 
 			{/* Minesweeper */}
@@ -148,7 +156,6 @@ const Work = () => {
 					</p>
 				</div>
 			</div>
-
 		</div>
 	);
 

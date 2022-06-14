@@ -3,8 +3,23 @@
 	padding: 60px;
 }
 
-.column {
+.contact-col {
 	float: left;
 	width: 33%;
 	padding: 30px;
+}
+
+@media (max-width: 800px) {
+	.contact-col {
+		width: 33%;
+	}
+}
+
+@media (max-width: 600px) {
+	.contact-col {
+		width: 40%;
+	}
+	.contact {
+		padding: 20px;
+	}
 }

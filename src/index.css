@@ -24,7 +24,8 @@ body {
 	background-color: var(--cream);
 	padding: 2vmin;
 	height: 100vh;
-	/* position: absolute; */
+	width: 100vw;
+	position: absolute;
 }
 
 code {
@@ -136,7 +137,7 @@ button {
 	text-align: center !important;
 	align-items: center !important;
 	width: 100% !important;
-	padding: 30px !important;
+	padding: 20px !important;
 	top: 0 !important;
 	right: 0 !important;
 	font-size: 20px !important;
