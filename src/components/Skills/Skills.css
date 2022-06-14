@@ -51,4 +51,7 @@ i {
 		width: 33%;
 		padding-left: 0;
 	}
+	.row {
+		padding-left: 0px;
+	}
 }

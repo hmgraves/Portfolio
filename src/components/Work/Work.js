@@ -37,12 +37,12 @@ const Work = () => {
 						<i className="devicon-html5-plain small-icon"></i>
 					</p>
 				</div>
-				<hr />
 			</div>
 
 
 			{/* Vines */}
 			<div className="row">
+			<hr />
 				<div className="cols">
 					<h3 className='title'>Vines</h3>
 					<p>Vines is a full CRUD application built for project two at General Assembly. Vines is a personalized database for you to store, inventory, and manage your houseplants.</p>
@@ -94,11 +94,11 @@ const Work = () => {
 						<i className="devicon-html5-plain small-icon"></i>
 					</p>
 				</div>
-				<hr />
 			</div>
 
 			{/* Travel */}
 			<div className="row">
+			<hr />
 				<div className="cols">
 					<h3 className='title'>Travel</h3>
 					<p>This travel app, built as a group project, allows users to choose a destination and view attractions at that destination. Also included is Weatherbug API, so users can see real-time weather at their chosen.</p>

@@ -63,15 +63,6 @@ i {
 		height: 100%;
 		width: 100%;
 	}
-
-	/* .cols {
-		padding: 5px;
-	}
-
-	.title {
-		position: relative;
-	} */
-
 	p {
 		position: inherit;
 	}
@@ -85,5 +76,9 @@ i {
 	}
 	.align-rt {
 		text-align: left;
+	}
+	a {
+		align-items: center;
+		text-align: center;
 	}
 }

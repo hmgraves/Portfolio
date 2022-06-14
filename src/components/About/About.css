@@ -1,6 +1,4 @@
-.photo {
-	height: 300px; 
-	width: 300px;
+.about-photo {
 	border-radius: 50%;
 	margin-left: 100px;
 }
@@ -18,10 +16,15 @@
 .about-text {
 	padding-top: 135px;
 	padding-right: 90px;
+	text-align: right;
+}
+
+.row-about {
+	padding-left: 60px;
 }
 
 @media (max-width: 800px) {
-	.photo {
+	.about-photo {
 		max-height: 50vmin;
 		max-width: 50vmin;
 		margin-left: 0;
