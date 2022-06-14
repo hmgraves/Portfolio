@@ -3,12 +3,41 @@ import mines from '../../Images/Minesweeper.png';
 import vines from '../../Images/vines.png';
 import cars from '../../Images/carcollector.png';
 import travel from '../../Images/travel.png';
-import { Link } from "react-router-dom";
+import tackpage from '../../Images/TackPage.png';
 
 const Work = () => {
 	return (
 		<div className="container work">
 			<h2>WORK</h2>
+
+			{/* TackTrunk */}
+			<div className="row">
+			<div className="cols">
+					<img className="work-img img-left" src={tackpage} alt="tackpage..." />
+					<br /><br /><br /><br />
+					<a href="https://tacktrunk.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
+							View on Heroku
+					</a>
+					<br /><br /><br />
+					<a href="https://github.com/hmgraves/TackTrunk" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
+						View on GitHub
+					</a>
+				</div>
+				<div className="cols align-rt">
+				<h3 className='title'>TackTrunk</h3>
+					<p>TackTrunk is a full CRUD application built with the busy horse barn in mind. Tack Trunk allows users to log in and add/categorize their personal tack as well as schedule lessons with the barn's trainers.</p>
+					<p>
+						Built with:
+						<i className="devicon-react-original small-icon"></i>
+						<i className="devicon-javascript-plain opposite small-icon"></i>
+						<i className="devicon-nodejs-plain small-icon"></i>
+						<i className="devicon-mongodb-plain small-icon"></i>
+						<i className="devicon-express-original small-icon"></i>
+						<i className="devicon-css3-plain small-icon"></i>
+						<i className="devicon-html5-plain small-icon"></i>
+					</p>
+				</div>
+			</div>
 
 			{/* Vines */}
 			<div className="row">
@@ -28,12 +57,12 @@ const Work = () => {
 				<div className="cols button">
 					<img className="work-img img-right" src={vines} alt="vines..." />
 					<div className='btn-block'>
-					<br /><br /><br /><br />
+						<br /><br /><br /><br />
 						<a href="https://vines-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 							View on Heroku
 						</a>
 						<br /><br />
-						<a href="https://github.com/hmgraves/Plant-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue'}}>
+						<a href="https://github.com/hmgraves/Plant-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 							View on GitHub
 						</a>
 					</div>
@@ -81,7 +110,7 @@ const Work = () => {
 				<div className="cols">
 					<img className="work-img img-right" src={travel} alt="mines..." />
 					<div className='btn-block'>
-					<br /><br /><br /><br />
+						<br /><br /><br /><br />
 						<a href="https://sei-travel-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 							View on Heroku
 						</a>
@@ -99,11 +128,11 @@ const Work = () => {
 				<div className="cols">
 					<img className="work-img img-left" src={mines} alt="mines..." />
 					<br /><br /><br /><br />
-					<a href="https://hmgraves.github.io/Minesweeper/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue'}}>
+					<a href="https://hmgraves.github.io/Minesweeper/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
 						View on GitHub Pages
 					</a>
 					<br /><br /><br />
-					<a href="https://github.com/hmgraves/Minesweeper" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue',  }}>
+					<a href="https://github.com/hmgraves/Minesweeper" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue', }}>
 						View on GitHub
 					</a>
 				</div>
