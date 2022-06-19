@@ -16,7 +16,7 @@
 	box-sizing: border-box;
 }
 
-body {
+head, body {
 	margin: 0;
 	font-family: 'Goldman', cursive;
 	-webkit-font-smoothing: antialiased;
@@ -24,8 +24,9 @@ body {
 	background-color: var(--cream);
 	padding: 2vmin;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	position: absolute;
+	/* max-width: 100%; */
 }
 
 code {
@@ -41,63 +42,18 @@ code {
 	text-align: center;
 }
 
-.align-rt {
-	text-align: right;
-	padding-right: 155px;
-}
 
 .smaller {
 	font-size: smaller;
-}
-
-.flex-ctr-ctr {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.flex-col {
-	flex-direction: column;
-}
-
-.flex-j-end {
-	justify-content: flex-end;
 }
 
 .scroll-y {
 	overflow-y: scroll;
 }
 
-.section-heading {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: var(--tan-1);
-	color: var(--text-dark);
-	border: 0.1vmin solid var(--tan-3);
-	border-radius: 1vmin;
-	padding: 0.6vmin;
-	text-align: center;
-	font-size: 2vmin;
-}
-
-.form-container {
-	padding: 3vmin;
-	background-color: var(--tan-1);
-	border: 0.1vmin solid var(--tan-3);
-	border-radius: 1vmin;
-}
-
 p.error-message {
 	color: var(--orange);
 	text-align: center;
-}
-
-form {
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	gap: 1.25vmin;
-	color: var(--text-light);
 }
 
 label {
@@ -131,7 +87,7 @@ button {
 	padding: 60px !important;
 }
 
-.navbar {
+.nav-bar {
 	background-color: var(--blue) !important;
 	position: fixed !important;
 	text-align: center !important;

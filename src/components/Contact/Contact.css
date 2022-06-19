@@ -1,25 +1,36 @@
-.contact {
+.contact-container {
 	background-color: var(--rose);
 	padding: 60px;
+	display: grid;
+	grid-template-columns: repeat(3 auto);
+	grid-template-rows: 50px 150px 50px;
+	grid-gap: 20px;
+
 }
 
-.contact-col {
-	float: left;
-	width: 33%;
-	padding: 30px;
+.linkedin {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	display: flex;
+	justify-content: center;
 }
 
-@media (max-width: 800px) {
-	.contact-col {
-		width: 33%;
-	}
+.github {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
 }
 
-@media (max-width: 600px) {
-	.contact-col {
-		width: 40%;
-	}
-	.contact {
-		padding: 20px;
-	}
+.resume {
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+}
+
+.email {
+	grid-row: 3 / 4;
+	grid-column: span 3;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
 }
