@@ -106,38 +106,59 @@ hr {
 	justify-content: center;
 }
 
+@media (max-width: 1000px) {
+	.links-1 {
+		flex-wrap: wrap;
+	}
+}
+
 
 @media (max-width: 800px) {
 	/* ----CONTAINERS---- */
-	/* TackTrunk, CarCollector */
-	.work-container-1 {
+	/* TackTrunk, CarCollector, Minesweeper, Vines, Travell*/
+	.work-container-1, .work-container-2 {
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: repeat (6, 150px);
+		grid-template-rows: repeat(6 auto);
 		grid-gap: 10px;
+		justify-items: center;
 	}
 
-	.title-1 {
+	.title-1, .title-2 {
 		grid-row: 1 / 2;
+		grid-column: 1 / 2;
 	}
 
-	.about-1 {
+	.about-1, .about-2 {
 		grid-row: 2 / 3;
+		text-align: center;
+		grid-column: 1 / 2;
 	}
 
-	.built-1 {
-		grid-row: 4 / 5;
-	}
-
-	.img-1 {
+	.built-1, .built-2 {
 		grid-row: 3 / 4;
-		width: 100%;
-		height: 100%;
+		grid-column: 1 / 2;
+	}
+
+	.img-1, .img-2 {
+		grid-column: 1 / 2;
+		grid-row: 4 / 5;
+		width: 50%;
+		justify-items: center;
 		
 	}
 
-	.links-1 {
+	.links-1, .links-2 {
+		grid-column: 1 / 2;
 		grid-row: 5 / 6;
+		justify-items: center;
+		padding-top: 20px;
 	}
-
+	
 }
+
+/* @media (max-width: 560px) {
+	.work-container-1, .work-container-2 {
+		grid-template-rows: 50px 70px auto auto 50px;
+	}
+} */

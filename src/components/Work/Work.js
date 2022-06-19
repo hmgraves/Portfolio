@@ -87,7 +87,7 @@ const Work = () => {
 			{/* Travel */}
 			<div className='work-container-2'>
 				<h3 className='title title-2'>Travel</h3>
-				<p className='about-2'>This travel app, built as a group project, allows users to choose a destination and view attractions at that destination. Also included is Weatherbug API, so users can see real-time weather at their chosen..</p>
+				<p className='about-2'>This travel app, built as a group project, allows users to choose a destination and view attractions at that destination. Also included is Weatherbug API, so users can see real-time weather at their chosen location.</p>
 				<p className='built-2'>
 					Built with:
 					<i className="devicon-python-plain small-icon"></i>
@@ -111,7 +111,7 @@ const Work = () => {
 			{/* Minesweeper */}
 			<div className='work-container-1'>
 				<h3 className='title-1 title'>Minesweeper</h3>
-				<p className='about-1'>his is the classic game, Minesweeper. This was the second game ever built by Hannah. The most difficult part of building this game, was using recursion!</p>
+				<p className='about-1'>This is the classic game, Minesweeper. This was the second game ever built by Hannah. The most difficult part of building this game, was using recursion!</p>
 				<p className='built-1'>
 					Built with:
 					<i className="devicon-javascript-plain opposite small-icon"></i>
