@@ -16,17 +16,15 @@
 	box-sizing: border-box;
 }
 
-head, body {
+html, body {
 	margin: 0;
 	font-family: 'Goldman', cursive;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: var(--cream);
-	padding: 2vmin;
-	height: 100vh;
+	height:100%;
 	width: 100%;
 	position: absolute;
-	/* max-width: 100%; */
 }
 
 code {
@@ -89,7 +87,7 @@ button {
 
 .nav-bar {
 	background-color: var(--blue) !important;
-	position: fixed !important;
+	/* position: fixed !important; */
 	text-align: center !important;
 	align-items: center !important;
 	width: 100% !important;

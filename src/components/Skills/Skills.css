@@ -4,6 +4,8 @@
 	right: 0;
 	display: grid;
 	padding: 60px;
+	/* position: relative; */
+	width: 100%;
 }
 
 .icon {
