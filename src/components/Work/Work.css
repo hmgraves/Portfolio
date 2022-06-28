@@ -11,7 +11,7 @@
 /* Page title */
 .title {
 	color: var(--violet);
-	font-size: 25px;
+	font-size: 2.3vw;
 	margin: 0;
 }
 
@@ -32,7 +32,7 @@
 
 /* Dev-icons */
 .small-icon {
-	font-size: 30px;
+	font-size: 4vw;
 }
 
 i {
@@ -160,8 +160,11 @@ hr {
 	
 }
 
-/* @media (max-width: 560px) {
-	.work-container-1, .work-container-2 {
-		grid-template-rows: 50px 70px auto auto 50px;
+/* @media (min-width: 1400px) {
+	.about-1, .about-2 {
+		font-size: large;
 	}
+	.small-icon {
+	font-size: 40px;
+}
 } */

@@ -13,7 +13,7 @@ const Work = () => {
 			{/* TackTrunk */}
 			<div className='work-container-1'>
 				<h3 className='title-1 title'>TackTrunk</h3>
-				<p className='about-1'>TackTrunk is a full CRUD application built with the busy horse barn in mind. Tack Trunk allows users to log in and add/categorize their personal tack as well as schedule lessons with the barn's trainers.</p>
+				<p className='about-1'>TackTrunk is a full CRUD React application built with the busy horse barn in mind. Tack Trunk allows users to log in and add/categorize their personal tack. Users are also able to schedule lessons with any of the barn's trainers.</p>
 				<p className='built-1'>
 					Built with:
 					<i className="devicon-react-original small-icon"></i>

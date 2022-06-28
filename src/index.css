@@ -87,7 +87,7 @@ button {
 
 .nav-bar {
 	background-color: var(--blue) !important;
-	/* position: fixed !important; */
+	position: fixed !important;
 	text-align: center !important;
 	align-items: center !important;
 	width: 100% !important;
