@@ -54,6 +54,10 @@ hr {
 	margin-bottom: 30px;
 }
 
+.about-1, .about-2 {
+	font-size: 1.5vw;
+}
+
 
 /* ----CONTAINERS---- */
 /* TackTrunk, CarCollector */
@@ -129,17 +133,20 @@ hr {
 	.title-1, .title-2 {
 		grid-row: 1 / 2;
 		grid-column: 1 / 2;
+		font-size: 3vw;
 	}
 
 	.about-1, .about-2 {
 		grid-row: 2 / 3;
 		text-align: center;
 		grid-column: 1 / 2;
+		font-size: 1.8vw;
 	}
 
 	.built-1, .built-2 {
 		grid-row: 3 / 4;
 		grid-column: 1 / 2;
+		
 	}
 
 	.img-1, .img-2 {
@@ -160,11 +167,8 @@ hr {
 	
 }
 
-/* @media (min-width: 1400px) {
+@media (min-width: 1400px) {
 	.about-1, .about-2 {
-		font-size: large;
+		font-size: 1.3vw;
 	}
-	.small-icon {
-	font-size: 40px;
 }
-} */

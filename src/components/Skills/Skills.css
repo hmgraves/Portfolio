@@ -6,6 +6,7 @@
 	padding: 60px;
 	/* position: relative; */
 	width: 100%;
+	justify-content: space-evenly;
 }
 
 .icon {
@@ -21,14 +22,12 @@ i {
 	border: white solid 2px;
 }
 
-.row {
-	padding-left: 50px;
-}
-
 .column {
 	float: left;
 	width: 20%;
 	padding: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 .opposite {

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
 	return (
 		<div className="contact-container">
-			<h2>CONTACT</h2>
+			<h2 className='contact-title'>CONTACT</h2>
 			<div className="linkedin contact">
 				<a href="https://www.linkedin.com/in/hannah-m-graves/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
 					<div className="icon">
@@ -30,7 +30,7 @@ const Contact = () => {
 				</a>
 			</div>
 			<div className='email contact'>
-				Email: <a href="hannahmgraves@hotmail.com" style={{ textDecoration: 'none', color: 'black' }}>&nbsp; hannahmgraves@gmail.com</a>
+				Email: hannahmgraves@gmail.com
 			</div>
 		</div>
 	);
