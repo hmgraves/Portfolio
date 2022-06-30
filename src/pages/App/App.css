@@ -6,6 +6,10 @@ main {
 	left: 0;
 }
 
+h1{
+	padding-top: 20px;
+}
+
 h2 {
 	font-size: 22px;
 }

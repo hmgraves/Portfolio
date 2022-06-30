@@ -3,6 +3,7 @@
 	grid-template-columns: 50% 50%;
 	grid-template-rows: repeat(2 auto);
 	padding: 60px;
+	padding-top: 0px;
 
 }
 
