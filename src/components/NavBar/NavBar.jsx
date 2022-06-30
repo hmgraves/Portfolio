@@ -5,7 +5,7 @@ const Link = Scroll.Link;
 const NavBar = () => {
 	return (
 		<nav className="nav-bar">
-			<Link to="about" className="link" style={{textDecoration: 'none', color: 'blue', cursor: 'pointer'}}>About me</Link>
+			<Link to="about" className="link" style={{textDecoration: 'none', color: 'blue', cursor: 'pointer'}}>About Me</Link>
 			&nbsp; | &nbsp;
 			<Link to="skills" className="link" style={{textDecoration: 'none', color: 'blue', cursor: 'pointer'}}>Skills & Tools</Link>
 			&nbsp; | &nbsp;

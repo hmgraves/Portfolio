@@ -2,13 +2,13 @@
 	background-color: var(--rose);
 	padding: 60px;
 	display: grid;
-	grid-template-columns: repeat(3 auto);
+	grid-template-columns: repeat(2 auto);
 	grid-template-rows: 100px 150px 50px;
 	grid-gap: 20px;
 
 }
 .contact-title {
-	grid-column: 1 / 4;
+	grid-column: 1 / 3;
 	grid-row: 1 / 2;
 }
 
@@ -24,14 +24,10 @@
 	grid-row: 2 / 3;
 }
 
-.resume {
-	grid-column: 3 / 4;
-	grid-row: 2 / 3;
-}
 
 .email {
 	grid-row: 3 / 4;
-	grid-column: span 3;
+	grid-column: span 2;
 }
 
 .contact {

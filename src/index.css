@@ -77,14 +77,6 @@ button {
 	text-decoration: none;
 }
 
-.skills {
-	background-color: var(--pink) !important;
-	left: 0;
-	right: 0;
-	display: grid;
-	padding: 60px !important;
-}
-
 .nav-bar {
 	background-color: var(--blue) !important;
 	position: fixed !important;
