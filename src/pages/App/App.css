@@ -16,15 +16,15 @@ h2 {
 
 .about-skills {
 	background: linear-gradient(0deg,#f6d3de, #fffbd6 );
-	height: 50px;
+	height: 70px;
 }
 .skills-work {
 	background: linear-gradient(0deg, #cef2e1, #f6d3de );
-	height: 50px;
+	height: 70px;
 }
 .work-contact {
 	background: linear-gradient(0deg,#fce8e1, #cef2e1 );
-	height: 50px;
+	height: 70px;
 }
 
 @media (max-width: 800px) {
