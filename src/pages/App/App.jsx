@@ -18,8 +18,11 @@ const App = () => {
 			<br />
 			<h1 className="align-ctr">Hello! I'm Hannah!</h1>
 			<About />
+			<div className="about-skills" />
 			<Skills />
+			<div className="skills-work" />
 			<Work />
+			<div className="work-contact" />
 			<Contact />
 			<Footer />
 		</main>

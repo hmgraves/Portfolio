@@ -14,6 +14,19 @@ h2 {
 	font-size: 22px;
 }
 
+.about-skills {
+	background: linear-gradient(0deg,#f6d3de, #fffbd6 );
+	height: 50px;
+}
+.skills-work {
+	background: linear-gradient(0deg, #cef2e1, #f6d3de );
+	height: 50px;
+}
+.work-contact {
+	background: linear-gradient(0deg,#fce8e1, #cef2e1 );
+	height: 50px;
+}
+
 @media (max-width: 800px) {
 	h2 {
 		text-align: center;
