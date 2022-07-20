@@ -60,17 +60,6 @@ label {
 	align-items: center;
 }
 
-button {
-	background-color: var(--blue);
-	border-color: var(--blue);
-	height: 35px;
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-	monospace;
-	text-decoration: none;
-	color: blue;
-	cursor: pointer;
-}
-
 .button {
 	display: block;
 	margin-top: 50px;;

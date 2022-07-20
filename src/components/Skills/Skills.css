@@ -4,7 +4,7 @@
 	grid-template-columns: 5(repeat auto);
 	grid-template-rows: 4(repeat 150px);
 	row-gap: 20px;
-	padding: 60px;
+	padding: 10px 10% 0 10%;
 }
 
 .skills-title {
@@ -29,6 +29,10 @@ i {
 	border-radius: 10px;
 	border: white solid 2px;
 	align-items: center;
+}
+
+i:hover {
+	color: var(--green)
 }
 
 .devicon {

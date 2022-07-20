@@ -9,7 +9,7 @@ const Contact = () => {
 				<a href="https://www.linkedin.com/in/hannah-m-graves/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
 					<div className="icon">
 						<i className="devicon-linkedin-plain"></i>
-						<h4 className='align-ctr'>LinkedIn</h4>
+						{/* <h4 className='align-ctr'>LinkedIn</h4> */}
 					</div>
 				</a>
 			</div>
@@ -17,7 +17,7 @@ const Contact = () => {
 				<a href="https://github.com/hmgraves" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
 					<div className="icon">
 						<i className="devicon-github-plain"></i>
-						<h4 className='align-ctr'>GitHub</h4>
+						{/* <h4 className='align-ctr'>GitHub</h4> */}
 					</div>
 				</a>
 			</div>

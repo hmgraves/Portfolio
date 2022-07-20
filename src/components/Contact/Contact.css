@@ -1,6 +1,6 @@
 .contact-container {
 	background-color: var(--rose);
-	padding: 60px;
+	padding: 10px 10% 0 10%;
 	display: grid;
 	grid-template-columns: repeat(2 auto);
 	grid-template-rows: 100px 150px 50px;

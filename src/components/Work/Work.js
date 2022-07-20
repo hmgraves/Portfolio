@@ -27,12 +27,11 @@ const Work = () => {
 				</p>
 				<img className="work-img img-1" src={tackpage} alt="tackpage..." />
 				<div className='btn-block links-1'>
-					<a href="https://tacktrunk.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
-						View TackTrunk on Heroku
+					<a href="https://tacktrunk.herokuapp.com/" className='btn link-1' target="_blank" rel="noreferrer">
+						Heroku
 					</a>
-					<br /><br />
-					<a href="https://github.com/hmgraves/TackTrunk" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
-						View TackTrunk on GitHub
+					<a href="https://github.com/hmgraves/TackTrunk" className='btn link-2' target="_blank" rel="noreferrer">
+						GitHub
 					</a>
 				</div>
 			</div>
@@ -55,12 +54,11 @@ const Work = () => {
 				</p>
 				<img className="work-img img-2" src={vines} alt="vines..." />
 				<div className='btn-block links-2'>
-					<a href="https://vines-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
-						View Vines on Heroku
+					<a href="https://vines-app.herokuapp.com/" className='btn' target="_blank" rel="noreferrer">
+						Heroku
 					</a>
-					<br /><br />
-					<a href="https://github.com/hmgraves/Plant-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
-						View Vines on GitHub
+					<a href="https://github.com/hmgraves/Plant-app" className='btn link-2' target="_blank" rel="noreferrer">
+						GitHub
 					</a>
 				</div>
 			</div>
@@ -82,8 +80,8 @@ const Work = () => {
 				<img className="work-img img-1" src={cars} alt="cars..." />
 				<div className='btn-block links-1'>
 
-					<a href="https://github.com/hmgraves/carcollector" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
-						View CarCollector on GitHub
+					<a href="https://github.com/hmgraves/carcollector" className='btn' target="_blank" rel="noreferrer">
+						GitHub
 					</a>
 				</div>
 			</div>
@@ -104,12 +102,11 @@ const Work = () => {
 				</p>
 				<img className="work-img img-2" src={travel} alt="mines..." />
 				<div className='btn-block links-2'>
-					<a href="https://sei-travel-app.herokuapp.com/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
-						View Travel on Heroku
+					<a href="https://sei-travel-app.herokuapp.com/" className='btn link-1' target="_blank" rel="noreferrer">
+						Heroku
 					</a>
-					<br /><br />
-					<a href="https://github.com/hmgraves/travel-app" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
-						View Travel on GitHub
+					<a href="https://github.com/hmgraves/travel-app" className='btn link-2' target="_blank" rel="noreferrer">
+						GitHub
 					</a>
 				</div>
 			</div>
@@ -129,12 +126,11 @@ const Work = () => {
 				</p>
 				<img className="work-img img-1" src={mines} alt="mines..." />
 				<div className='btn-block links-1'>
-					<a href="https://hmgraves.github.io/Minesweeper/" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue' }}>
-						View Minesweeper on GitHub Pages
+					<a href="https://hmgraves.github.io/Minesweeper/"  className='btn' target="_blank" rel="noreferrer">
+						GH Pages
 					</a>
-					<br /><br />
-					<a href="https://github.com/hmgraves/Minesweeper" style={{ textDecoration: 'none', cursor: 'pointer', color: 'blue', }}>
-						View Minesweeper on GitHub
+					<a href="https://github.com/hmgraves/Minesweeper" className='btn link-2' target="_blank" rel="noreferrer">
+						GitHub 
 					</a>
 				</div>
 			</div>
