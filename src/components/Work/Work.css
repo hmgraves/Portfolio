@@ -208,6 +208,7 @@ hr {
 		width: 40%;
 		justify-items: center;
     margin-top: 20px;
+    min-width: 300px;
 	}
 
 	.links-1,
@@ -217,10 +218,4 @@ hr {
 		justify-items: center;
 		text-align: center;
 	}
-}
-
-@media (min-width: 1400px) {
-  .work {
-    /* padding: 150px; */
-  }
 }
