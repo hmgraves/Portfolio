@@ -14,6 +14,7 @@ const Work = () => {
 			{/* Scisco Genetics */}
 			<div>
 				<h3 className='title-1 title'>Scisco Genetics</h3>
+				<h4>Senior Frontend Software Engineer</h4>
 				<h5>08/2022 - PRESENT</h5>
 				<p className='about'>At Scisco Genetics, Hannah leads frontend development as the sole frontend engineer across multiple platforms, including web and desktop. She spearheaded the development of the company’s marketing website using React and Material UI. Her work also includes building a cross-platform Electron-based desktop application from the ground up using Angular and TypeScript, enabling secure and performant genetic data analysis both locally and in the cloud. In addition, she maintains the company’s main cloud-based platform used by clinical labs and hospitals worldwide. Across these projects, Hannah has integrated key AWS services—including Lambda, S3, Cognito, and API Gateway—to deliver scalable, secure, and reliable full-stack solutions.</p>
 

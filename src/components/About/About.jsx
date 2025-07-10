@@ -10,6 +10,9 @@ const About = () => {
 				I am a Software Engineer at Scisco Genetics with a passion for creating high-end user experiences. I have a strong foundation in front end development with popular technologies such as TypeScript, Angular, React, HTML, SCSS, and Electron, as well as experience with popular CSS frameworks like Material-UI, Material, and Ionic. 
 				<br />
 				<br />
+				I excel in working in fast-paced startup-like environments developing full scale web and desktop based applications from the ground up. 
+				<br />
+				<br />
 				I successfully completed the Software Engineering Immersive program from General Assembly, as well as a Bachelor of Science in Biology from Oregon State University, and am currently working on a Master of Science in Microbiology &amp; Cell Science
 				<br />
 				<br />
