@@ -53,7 +53,11 @@ const Work = () => {
 					<i className="devicon-python-plain small-icon"></i>
 					<i className="devicon-postgresql-plain small-icon"></i>
 					<i class="devicon-amazonwebservices-plain-wordmark small-icon"></i>
-
+					<i class="devicon-storybook-plain small-icon"></i>
+					<i class="devicon-circleci-plain small-icon"></i>
+					<i class="devicon-ngrx-plain small-icon"></i>
+					<i class="devicon-angularmaterial-plain small-icon"></i>
+					<i class="devicon-materialui-plain small-icon"></i>
 				</p>
 
 			</div>
