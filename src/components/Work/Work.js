@@ -52,7 +52,8 @@ const Work = () => {
 					<i className="devicon-html5-plain small-icon"></i>
 					<i className="devicon-python-plain small-icon"></i>
 					<i className="devicon-postgresql-plain small-icon"></i>
-					<i className="devicon-amazonwebservices-original small-icon"></i>
+					<i class="devicon-amazonwebservices-plain-wordmark small-icon"></i>
+
 				</p>
 
 			</div>
@@ -70,6 +71,7 @@ const Work = () => {
 					<i className="devicon-javascript-plain opposite small-icon"></i>
 					<i className="devicon-css3-plain small-icon"></i>
 					<i className="devicon-html5-plain small-icon"></i>
+					<i class="devicon-materialui-plain small-icon"></i>
 				</p>
 				<img className="work-img img-2" src={scisco} alt="scisco..." />
 				<div className='btn-block links-2'>

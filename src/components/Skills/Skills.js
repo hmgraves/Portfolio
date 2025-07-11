@@ -70,7 +70,7 @@ const Skills = () => {
 				<h4 className='align-ctr'>git</h4>
 			</div>
 			<div className="icon icon-17">
-				<i className="devicon devicon-amazonwebservices-original"></i>
+				<i class="devicon devicon-amazonwebservices-plain-wordmark"></i>
 				<h4 className='align-ctr'>AWS</h4>
 			</div>
 			<div className="icon icon-18">
@@ -84,6 +84,26 @@ const Skills = () => {
 			<div className="icon icon-20">
 				<i className="devicon devicon-ionic-original"></i>
 				<h4 className='icon-name'>Ionic</h4>
+			</div>
+			<div className="icon icon-21">	
+            	<i class="devicon devicon-storybook-plain"></i>
+				<h4 className='icon-name'>Storybook</h4>
+			</div>
+			<div className="icon icon-22">	
+            	<i class="devicon devicon-circleci-plain"></i>
+				<h4 className='icon-name'>CircleCI</h4>
+			</div>
+			<div className="icon icon-23">	
+           		<i class="devicon devicon-ngrx-plain"></i>
+				<h4 className='icon-name'>NgRx</h4>
+			</div>
+			<div className="icon icon-24">	
+           		<i class="devicon devicon-angularmaterial-plain"></i>
+				<h4 className='icon-name'>AngularMaterial</h4>
+			</div>
+			<div className="icon icon-25">	
+           		<i class="devicon devicon-materialui-plain"></i>
+				<h4 className='icon-name'>MUI</h4>
 			</div>
 		</div>
 

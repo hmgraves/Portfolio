@@ -2,7 +2,7 @@
 	background-color: var(--pink) !important;
 	display: grid;
 	grid-template-columns: 5(repeat auto);
-	grid-template-rows: 4(repeat 150px);
+	grid-template-rows: 5(repeat 150px);
 	row-gap: 20px;
 	padding: 10px 10% 0 10%;
 }
@@ -57,6 +57,12 @@ i:hover {
 .icon-11, .icon-12, .icon-13, .icon-14, .icon-15 {
 	grid-row: 4 / 5;
 }
+.icon-16, .icon-17, .icon-18, .icon-19, .icon-20 {
+	grid-row: 5 / 6;
+}
+.icon-21, .icon-22, .icon-23, .icon-24, .icon-25 {
+	grid-row: 6 / 7;
+}
 
 @media (max-width: 900px) {
 	.skills {
@@ -74,8 +80,17 @@ i:hover {
 	.icon-9, .icon-10, .icon-11, .icon-12 {
 		grid-row: 4 / 5;
 	}
-	.icon-13, .icon-14, .icon-15 {
+	.icon-13, .icon-14, .icon-15, .icon-16 {
 		grid-row: 5 / 6;
+	}
+	.icon-17, .icon-18, .icon-19, .icon-20 {
+		grid-row: 6 / 7;
+	}
+	.icon-21, .icon-22, .icon-23, .icon-24 {
+		grid-row: 7 / 8;
+	}
+	.icon-25 {
+		grid-row: 9 / 10;
 	}
 }
 
@@ -92,7 +107,7 @@ i:hover {
 	.icon-4, .icon-5, .icon-6 {
 		grid-row: 3 / 4;
 	}
-	.icon-7, .icon-8, .icon-9, .icon-10, .icon-11, .icon-12 {
+	.icon-7, .icon-8, .icon-9 {
 		grid-row: 4 / 5;
 	}
 	.icon-10, .icon-11, .icon-12 {
@@ -100,6 +115,18 @@ i:hover {
 	}
 	.icon-13, .icon-14, .icon-15 {
 		grid-row: 6 / 7;
+	}
+	.icon-16, .icon-17, .icon-18 {
+		grid-row: 7 / 8;
+	}
+	.icon-19, .icon-20, .icon-21 {
+		grid-row: 8 / 9;
+	}
+	.icon-22, .icon-23, .icon-24 {
+		grid-row: 9 / 10;
+	}
+	.icon-25 {
+		grid-row: 10 / 11;
 	}
 }
 
