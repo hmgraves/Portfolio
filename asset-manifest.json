@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4b9fcbc2.css",
-    "main.js": "/Portfolio/static/js/main.3c052c6d.js",
+    "main.css": "/Portfolio/static/css/main.818bd70e.css",
+    "main.js": "/Portfolio/static/js/main.8ea66b5c.js",
     "static/media/scisco.png": "/Portfolio/static/media/scisco.ac678193d5ef621c5d05.png",
+    "static/media/gems5.png": "/Portfolio/static/media/gems5.fa9001abdb233d178cef.png",
+    "static/media/gems2.png": "/Portfolio/static/media/gems2.6c660036d7e9ab682c69.png",
+    "static/media/gems4.png": "/Portfolio/static/media/gems4.2fd57bd944dc9fdc6938.png",
+    "static/media/gems3.png": "/Portfolio/static/media/gems3.2da67d369d8445396652.png",
+    "static/media/gems1.png": "/Portfolio/static/media/gems1.0152ab33fadf7e2de881.png",
     "static/media/Minesweeper.png": "/Portfolio/static/media/Minesweeper.de97024126337b1bd01b.png",
     "static/media/travel.png": "/Portfolio/static/media/travel.05e2e5f4d2e7edb35978.png",
     "static/media/vines.png": "/Portfolio/static/media/vines.da9e486abfaadd5fd974.png",
@@ -10,11 +15,11 @@
     "static/media/TackPage.png": "/Portfolio/static/media/TackPage.8df89a0b15d93366b688.png",
     "static/media/carcollector.png": "/Portfolio/static/media/carcollector.da051040c56c56bd2c7f.png",
     "index.html": "/Portfolio/index.html",
-    "main.4b9fcbc2.css.map": "/Portfolio/static/css/main.4b9fcbc2.css.map",
-    "main.3c052c6d.js.map": "/Portfolio/static/js/main.3c052c6d.js.map"
+    "main.818bd70e.css.map": "/Portfolio/static/css/main.818bd70e.css.map",
+    "main.8ea66b5c.js.map": "/Portfolio/static/js/main.8ea66b5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b9fcbc2.css",
-    "static/js/main.3c052c6d.js"
+    "static/css/main.818bd70e.css",
+    "static/js/main.8ea66b5c.js"
   ]
 }
