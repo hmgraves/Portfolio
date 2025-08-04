@@ -5,6 +5,20 @@ import cars from '../../Images/carcollector.png';
 import travel from '../../Images/travel.png';
 import tackpage from '../../Images/TackPage.png';
 import scisco from '../../Images/scisco.png';
+import ImageSlider from '../ImageSlider/ImageSlider';
+import gems1 from '../../Images/gems/gems1.png';
+import gems2 from '../../Images/gems/gems2.png';
+import gems3 from '../../Images/gems/gems3.png';
+import gems4 from '../../Images/gems/gems4.png';
+import gems5 from '../../Images/gems/gems5.png';
+
+const imageUrls = [
+  gems1,
+  gems2,
+  gems3,
+  gems4,
+  gems5,
+];
 
 const Work = () => {
 	return (
@@ -36,7 +50,7 @@ const Work = () => {
 						Creating efficient report zipping and download workflows using AWS Lambda and S3 to support large-scale genomic data delivery
 					</li>
 					<li>
-						Planning and development of a user portal to place orders, receive results, and receive and pay for invoices
+						Currently architecting a cloud-based ordering and billing platform that enables users to place orders, receive results, view quotes, generate invoices, and process payments
 					</li>
 				</ul>
 
@@ -52,18 +66,40 @@ const Work = () => {
 					<i className="devicon-html5-plain small-icon"></i>
 					<i className="devicon-python-plain small-icon"></i>
 					<i className="devicon-postgresql-plain small-icon"></i>
-					<i class="devicon-amazonwebservices-plain-wordmark small-icon"></i>
-					<i class="devicon-storybook-plain small-icon"></i>
-					<i class="devicon-circleci-plain small-icon"></i>
-					<i class="devicon-ngrx-plain small-icon"></i>
-					<i class="devicon-angularmaterial-plain small-icon"></i>
-					<i class="devicon-materialui-plain small-icon"></i>
-				</p>
+					<i className="devicon-amazonwebservices-plain-wordmark small-icon"></i>
+					<i className="devicon-storybook-plain small-icon"></i>
+					<i className="devicon-circleci-plain small-icon"></i>
+					<i className="devicon-ngrx-plain small-icon"></i>
+					<i className="devicon-angularmaterial-plain small-icon"></i>
+					<i className="devicon-materialui-plain small-icon"></i>
+				</p>                                                          
 
 			</div>
 			<hr />
 
 			<h2>PAST PROJECTS</h2>
+			{/* GEMS */}
+			<div className='work-container-1'>
+				<h3 className='title-1 title'>Scisco Genetics GeMS</h3>
+				<p className='about-1'>An Electron based desktop application architected and developed by Hannah using Angular and Material, as well as NgRx for state management, to run both HLA and Chimerism analyses as well as visualizations for gene sequencing analysis. This includes authentication, navigation history, light/dark mode, reusable components, and real-time status updates on analyses.</p>
+				<p className='built-1'>
+					Built with:
+					<br /><br />
+					<i className="devicon-electron-original small-icon"></i>
+					<i className="devicon-angularjs-plain small-icon"></i>
+					<i className="devicon-typescript-plain opposite small-icon"></i>
+					<i className="devicon-css3-plain small-icon"></i>
+					<i className="devicon-html5-plain small-icon"></i>
+					<i className="devicon-angularmaterial-plain small-icon"></i>
+					<i className="devicon-ngrx-plain small-icon"></i>
+				</p>
+				<div className="img-1">
+					<ImageSlider images={imageUrls} />
+				</div>
+
+			</div>
+			<hr />
+
 			{/* Scisco Genetics */}
 			<div className='work-container-2'>
 				<h3 className='title-2 title'>Scisco Genetics Website</h3>
@@ -75,7 +111,7 @@ const Work = () => {
 					<i className="devicon-javascript-plain opposite small-icon"></i>
 					<i className="devicon-css3-plain small-icon"></i>
 					<i className="devicon-html5-plain small-icon"></i>
-					<i class="devicon-materialui-plain small-icon"></i>
+					<i className="devicon-materialui-plain small-icon"></i>
 				</p>
 				<img className="work-img img-2" src={scisco} alt="scisco..." />
 				<div className='btn-block links-2'>
@@ -84,8 +120,10 @@ const Work = () => {
 					</a>
 				</div>
 			</div>
+
 			<hr />
 
+			<h2>SCHOOL PROJECTS</h2>
 			{/* TackTrunk */}
 			<div className='work-container-1'>
 				<h3 className='title-1 title'>TackTrunk</h3>

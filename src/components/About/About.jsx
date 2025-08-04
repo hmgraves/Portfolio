@@ -5,7 +5,7 @@ const About = () => {
 	return (
 		<div className="about-container" id="about">
 			<h2 className="row-about">ABOUT</h2>
-			<img className="about-photo" src={Hannah} alt="author..." tabindex="-1"/>
+			<img className="about-photo" src={Hannah} alt="author..." tabIndex="-1"/>
 			<div className="about-text">
 				I am a Software Engineer at Scisco Genetics with a passion for creating high-end user experiences. I have a strong foundation in front end development with popular technologies such as TypeScript, Angular, React, HTML, SCSS, and Electron, as well as experience with popular CSS frameworks like Material-UI, Material, and Ionic. 
 				<br />
