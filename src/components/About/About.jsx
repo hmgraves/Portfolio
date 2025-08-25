@@ -7,7 +7,7 @@ const About = () => {
 			<h2 className="row-about">ABOUT</h2>
 			<img className="about-photo" src={Hannah} alt="author..." tabIndex="-1"/>
 			<div className="about-text">
-				I am a Software Engineer at Scisco Genetics with a passion for creating high-end user experiences. I have a strong foundation in front end development with popular technologies such as TypeScript, Angular, React, HTML, SCSS, and Electron, as well as experience with popular CSS frameworks like Material-UI, Material, and Ionic. 
+				Senior Frontend & Full-Stack Engineer with 3+ years of experience delivering scalable, production-grade web and desktop applications with a passion for high quality user experience. Proven expertise in React, Angular, TypeScript, and AWS with a strong background in design systems, UI/UX best practices, and data-intensive applications. Extensive experience in leadership, healthcare, and genetic data platforms, leading projects from concept through deployment in startup and lean team environments. Skilled at collaborating with cross-functional teams to build secure, high-performance, and intuitive solutions with a focus in quality.
 				<br />
 				<br />
 				I excel in working in fast-paced startup-like environments developing full scale web and desktop based applications from the ground up. 

@@ -7,6 +7,19 @@
 	margin-right: 10px;
 }
 
+.work-school-gradient {
+	background: linear-gradient(0deg, #d1edfc, #cef2e1 );
+	height: 70px;	
+}
+
+.school {
+	background-color: var(--lightblue);
+	padding: 10px 10% 0 10%;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
 /* Page title */
 .title {
 	color: black;

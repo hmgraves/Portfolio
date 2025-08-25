@@ -7,6 +7,11 @@
 	padding: 10px 10% 0 10%;
 }
 
+.certs {
+	background-color: var(--pink) !important;
+	padding: 10px 10% 0 10%;
+}
+
 .skills-title {
 	grid-row: 1 /2;
 	grid-column: span 5;
