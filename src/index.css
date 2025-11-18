@@ -1,77 +1,88 @@
-/* CSS Custom Properties */
 :root {
-	--white: #ffffff;
-	--rose: #fce8e1;
-	--pink: #f6d3de;
-	--violet: #cdb0da;
-	--blue: #b2dcf3;
-	--lightblue: #d1edfc;
-	--green: #cef2e1;
-	--cream: #fffbd6;
-	--text-blue: rgb(50, 50, 250);
+  --white: #ffffff;
+
+  /* Ultra-soft backgrounds */
+  --rose: #faefec;
+  --pink: #f8edf6;
+  --violet: #f0ecf8;
+  --blue: #ecf5fb;
+  --lightblue: #e8f3faff;
+  --green: #edf8f3;
+  --cream: #fbf8e9ff;
+
+  /* Text */
+  --text-dark: #2e2e2e;
+  --text-blue: #3a4d9b;
+
+  /* Shadows */
+  --shadow-soft: rgba(0, 0, 0, 0.03);
+  --shadow-medium: rgba(0, 0, 0, 0.06);
 }
 
+/* Global reset-ish */
 *,
-*:before,
-*:after {
-	box-sizing: border-box;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-html, body {
-	margin: 0;
-	font-family: 'Goldman', cursive;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	background-color: var(--cream);
-	height:100%;
-	width: 100%;
-	position: absolute;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  /* More neutral, professional font stack */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc; /* sections handle their own backgrounds */
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 #root {
-	height: 100%;
+  min-height: 100vh;
 }
 
+/* Utilities */
 .align-ctr {
-	text-align: center;
+  text-align: center;
 }
-
 
 .smaller {
-	font-size: smaller;
+  font-size: smaller;
 }
 
 .scroll-y {
-	overflow-y: scroll;
+  overflow-y: auto;
 }
 
 p.error-message {
-	color: var(--orange);
-	text-align: center;
+  color: var(--text-blue); /* or another accent if you prefer */
+  text-align: center;
 }
 
 label {
-	font-size: 2vmin;
-	display: flex;
-	align-items: center;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
 }
 
 .button {
-	display: block;
-	margin-top: 50px;;
-	text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  text-decoration: none;
 }
 
 .photo {
-	height: 300px; 
-	width: 300px;
-	border-radius: 50%;
-	margin-left: 100px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-left: 100px;
 }
-
-

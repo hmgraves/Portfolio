@@ -1,262 +1,341 @@
-import './Work.css';
-import mines from '../../Images/Minesweeper.png';
-import vines from '../../Images/vines.png';
-import cars from '../../Images/carcollector.png';
-import travel from '../../Images/travel.png';
-import tackpage from '../../Images/TackPage.png';
-import scisco from '../../Images/scisco.png';
-import ImageSlider from '../ImageSlider/ImageSlider';
-import gems1 from '../../Images/gems/gems1.png';
-import gems2 from '../../Images/gems/gems2.png';
-import gems3 from '../../Images/gems/gems3.png';
-import gems4 from '../../Images/gems/gems4.png';
-import gems5 from '../../Images/gems/gems5.png';
+import "./Work.css";
+import mines from "../../Images/Minesweeper.png";
+import vines from "../../Images/vines.png";
+import cars from "../../Images/carcollector.png";
+import travel from "../../Images/travel.png";
+import tackpage from "../../Images/TackPage.png";
+import scisco from "../../Images/scisco.png";
+import ImageSlider from "../ImageSlider/ImageSlider";
+import gems1 from "../../Images/gems/gems1.png";
+import gems2 from "../../Images/gems/gems2.png";
+import gems3 from "../../Images/gems/gems3.png";
+import gems4 from "../../Images/gems/gems4.png";
+import gems5 from "../../Images/gems/gems5.png";
 
-const imageUrls = [
-  gems1,
-  gems2,
-  gems3,
-  gems4,
-  gems5,
-];
+const imageUrls = [gems1, gems2, gems3, gems4, gems5];
 
 const Work = () => {
-	return ( 
-		<>
-			<div className="container work">
-				<h2>EXPERIENCE</h2>
+	return (
+		<section className="work-section" id="work">
+			<div className="work-inner">
+				<h2>Experience</h2>
 
-				{/* Scisco Genetics */}
-				<div>
-					<h3 className='title-1 title'>Scisco Genetics</h3>
-					<h4>Senior Frontend Software Engineer</h4>
-					<h5>08/2022 - PRESENT</h5>
-					<p className='about'>At Scisco Genetics, Hannah leads frontend development as the sole frontend engineer across multiple platforms, including web and desktop. She spearheaded the development of the company’s marketing website using React and Material UI. Her work also includes building a cross-platform Electron-based desktop application from the ground up using Angular and TypeScript, enabling secure and performant genetic data analysis both locally and in the cloud. In addition, she maintains the company’s main cloud-based platform used by clinical labs and hospitals worldwide. Across these projects, Hannah has integrated key AWS services—including Lambda, S3, Cognito, and API Gateway—to deliver scalable, secure, and reliable full-stack solutions.</p>
+				<article className="experience-card">
+					<header className="experience-header">
+						<div>
+							<h3>Senior Fullstack Software Engineer</h3>
+							<p className="experience-company">Scisco Genetics · Seattle, WA</p>
+						</div>
+						<p className="experience-dates">Aug 2022 – September 2025</p>
+					</header>
 
-					Some key contributions include:
-					<ul>
+					<p className="experience-summary">
+						Sole frontend engineer leading development of web and desktop applications that power
+						genetic testing workflows used by clinical labs and hospitals. I own projects end-to-end,
+						from architecture and UI design to implementation, deployment, and iteration.
+					</p>
+
+					<ul className="experience-list">
 						<li>
-							Developing a cross-platform Electron desktop application to support HLA and Chimerism software, with modes for standalone, LAN-hosted, and cloud-connected operation
+							Built and maintain an <strong>Electron + Angular + Node.js</strong> desktop app that enables
+							secure, offline HLA and Chimerism analyses, real-time status updates, dark/light
+							theming, and reusable UI components.
 						</li>
 						<li>
-							Building cloud-based genetic data services in Angular and Ionic, later transitioning to Material for improved UX consistency
+							Architected a <strong>cloud-based ordering and billing platform</strong> where
+							healthcare clients submit orders, access reports, manage quotes, and process payments.
 						</li>
 						<li>
-							Building and designing visualizations for gene sequencing analysis use in both lab and client environments
+							Created visualizations and workflows for high-throughput gene sequencing analysis,
+							supporting both lab users and external clients.
 						</li>
 						<li>
-							Implementing an end-to-end lab service platform for sample logging, tracking, and MiSeq-based data analysis, ensuring accurate and timely report generation
+							Implemented end-to-end sample logging, tracking, and MiSeq integration, reducing report
+							turnaround time and improving data reliability.
 						</li>
 						<li>
-							Creating efficient report zipping and download workflows using AWS Lambda and S3 to support large-scale genomic data delivery
-						</li>
-						<li>
-							Currently architecting a cloud-based ordering and billing platform that enables users to place orders, receive results, view quotes, generate invoices, and process payments
+							Integrated AWS services (<strong>Lambda, S3, Cognito, API Gateway, Parameter Store</strong>)
+							into frontend workflows to deliver secure, scalable full-stack solutions.
 						</li>
 					</ul>
 
-					<p className='built-1'>
-						Stack used:
-						<br /><br />
-						<i className="devicon-angularjs-plain small-icon"></i>
-						<i className="devicon-react-original small-icon"></i>
-						<i className="devicon-electron-original small-icon"></i>
-						<i className="devicon-typescript-plain opposite small-icon"></i>
-						<i className="devicon-javascript-plain opposite small-icon"></i>
-						<i className="devicon-css3-plain small-icon"></i>
-						<i className="devicon-html5-plain small-icon"></i>
-						<i className="devicon-python-plain small-icon"></i>
-						<i className="devicon-postgresql-plain small-icon"></i>
-						<i className="devicon-amazonwebservices-plain-wordmark small-icon"></i>
-						<i className="devicon-storybook-plain small-icon"></i>
-						<i className="devicon-circleci-plain small-icon"></i>
-						<i className="devicon-ngrx-plain small-icon"></i>
-						<i className="devicon-angularmaterial-plain small-icon"></i>
-						<i className="devicon-materialui-plain small-icon"></i>
-					</p>                                                          
-
-				</div>
-				<hr />
-
-				<h2>PAST PROJECTS</h2>
-				{/* GEMS */}
-				<div className='work-container-1'>
-					<h3 className='title-1 title'>Scisco Genetics GeMS</h3>
-					<p className='about-1'>An Electron based desktop application architected and developed by Hannah using Angular and Material, as well as NgRx for state management, to run both HLA and Chimerism analyses as well as visualizations for gene sequencing analysis. This includes authentication, navigation history, light/dark mode, reusable components, and real-time status updates on analyses.</p>
-					<p className='built-1'>
-						Built with:
-						<br /><br />
-						<i className="devicon-electron-original small-icon"></i>
-						<i className="devicon-angularjs-plain small-icon"></i>
-						<i className="devicon-typescript-plain opposite small-icon"></i>
-						<i className="devicon-css3-plain small-icon"></i>
-						<i className="devicon-html5-plain small-icon"></i>
-						<i className="devicon-angularmaterial-plain small-icon"></i>
-						<i className="devicon-ngrx-plain small-icon"></i>
-					</p>
-					<div className="img-1">
-						<ImageSlider images={imageUrls} />
+					<div className="experience-stack">
+						<span>Angular</span>
+						<span>React</span>
+						<span>Node.js</span>
+						<span>Electron</span>
+						<span>TypeScript</span>
+						<span>Python</span>
+						<span>NgRx</span>
+						<span>Material UI</span>
+						<span>Angular Material</span>
+						<span>AWS</span>
+						<span>PostgreSQL</span>
+						<span>Storybook</span>
+						<span>CircleCI</span>
 					</div>
+				</article>
+
+				<h2 className="work-subheading">Selected Projects</h2>
+
+				<div className="projects-grid">
+					{/* GeMS – keep carousel free */}
+					<article className="project-card">
+						<div className="project-media project-media-slider">
+							<ImageSlider images={imageUrls} />
+						</div>
+						<div className="project-content">
+							<h3 className="project-title">Scisco Genetics GeMS</h3>
+							<p className="project-type">Desktop Application · Genetics</p>
+							<p className="project-description">
+								Electron-based desktop application architected and developed to power HLA and
+								Chimerism analyses, with gene sequencing visualizations, authentication, navigation
+								history, real-time status updates, and reusable components.
+							</p>
+							<div className="project-stack">
+								<span>Electron</span>
+								<span>Angular</span>
+								<span>TypeScript</span>
+								<span>Node.js</span>
+								<span>Angular Material</span>
+								<span>NgRx</span>
+							</div>
+						</div>
+					</article>
+
+					{/* Scisco Website – static image */}
+					<article className="project-card">
+						<div className="project-media project-media-static">
+							<img src={scisco} alt="Scisco Genetics marketing site" />
+						</div>
+						<div className="project-content">
+							<h3 className="project-title">Scisco Genetics Website</h3>
+							<p className="project-type">Marketing Site · React</p>
+							<p className="project-description">
+								Responsive React + Material UI marketing site redesign that improved performance,
+								SEO, and clarity of the company’s offerings for labs, hospitals, and partners.
+							</p>
+							<div className="project-stack">
+								<span>React</span>
+								<span>JavaScript</span>
+								<span>Material UI</span>
+								<span>Node.js</span>
+								<span>CSS</span>
+								<span>HTML</span>
+							</div>
+							<div className="project-links">
+								<a
+									href="https://sciscogenetics.com/"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									View Website
+								</a>
+							</div>
+						</div>
+					</article>
 
 				</div>
-				<hr />
 
-				{/* Scisco Genetics */}
-				<div className='work-container-2'>
-					<h3 className='title-2 title'>Scisco Genetics Website</h3>
-					<p className='about-2'>A React and Material UI company marking website.</p>
-					<p className='built-2'>
-						Built with:
-						<br /><br />
-						<i className="devicon-react-original small-icon"></i>
-						<i className="devicon-javascript-plain opposite small-icon"></i>
-						<i className="devicon-css3-plain small-icon"></i>
-						<i className="devicon-html5-plain small-icon"></i>
-						<i className="devicon-materialui-plain small-icon"></i>
-					</p>
-					<img className="work-img img-2" src={scisco} alt="scisco..." />
-					<div className='btn-block links-2'>
-						<a href="https://sciscogenetics.com/" className='btn link-1' target="_blank" rel="noreferrer">
-							Website
-						</a>
-					</div>
+				<h3 className="work-subheading small">School Projects</h3>
+				<div className="projects-grid projects-grid-small">
+					{/* TackTrunk */}
+					<article className="project-card project-card-small">
+						<div className="project-media">
+							<img src={tackpage} alt="TackTrunk app screenshot" />
+						</div>
+						<div className="project-content">
+							<h4 className="project-title">TackTrunk</h4>
+							<p className="project-type">Full-Stack Web App · 2022</p>
+							<p className="project-description">
+								Full CRUD React application for busy horse barns, allowing users to log and
+								categorize tack and schedule lessons with trainers.
+							</p>
+							<div className="project-stack">
+								<span>React</span>
+								<span>Node.js</span>
+								<span>Express</span>
+								<span>MongoDB</span>
+								<span>JavaScript</span>
+								<span>CSS</span>
+								<span>HTML</span>
+							</div>
+							<div className="project-links">
+								<a
+									href="https://tacktrunk.herokuapp.com/"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Live
+								</a>
+								<a
+									href="https://github.com/hmgraves/TackTrunk"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									GitHub
+								</a>
+							</div>
+						</div>
+					</article>
+
+					{/* Vines */}
+					<article className="project-card project-card-small">
+						<div className="project-media">
+							<img src={vines} alt="Vines app" />
+						</div>
+						<div className="project-content">
+							<h4 className="project-title">Vines</h4>
+							<p className="project-type">Plant Inventory · CRUD App</p>
+							<p className="project-description">
+								Personalized plant inventory app for tracking and managing a houseplant collection.
+							</p>
+							<div className="project-stack">
+								<span>JavaScript</span>
+								<span>Node.js</span>
+								<span>Express</span>
+								<span>MongoDB</span>
+								<span>CSS</span>
+								<span>HTML</span>
+							</div>
+							<div className="project-links">
+								<a
+									href="https://vines-app.herokuapp.com/"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Live
+								</a>
+								<a
+									href="https://github.com/hmgraves/Plant-app"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									GitHub
+								</a>
+							</div>
+						</div>
+					</article>
+
+					{/* CarCollector */}
+					<article className="project-card project-card-small">
+						<div className="project-media">
+							<img src={cars} alt="CarCollector app" />
+						</div>
+						<div className="project-content">
+							<h4 className="project-title">CarCollector</h4>
+							<p className="project-type">Vehicle Tracking · CRUD App</p>
+							<p className="project-description">
+								Full-stack app to track cars, maintenance, and upgrades for a personal collection.
+							</p>
+							<div className="project-stack">
+								<span>Python</span>
+								<span>Django</span>
+								<span>PostgreSQL</span>
+								<span>CSS</span>
+								<span>HTML</span>
+							</div>
+							<div className="project-links">
+								<a
+									href="https://github.com/hmgraves/carcollector"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									GitHub
+								</a>
+							</div>
+						</div>
+					</article>
+
+					{/* Travel App */}
+					<article className="project-card project-card-small">
+						<div className="project-media">
+							<img src={travel} alt="Travel app" />
+						</div>
+						<div className="project-content">
+							<h4 className="project-title">Travel App</h4>
+							<p className="project-type">Group Project · Travel + Weather</p>
+							<p className="project-description">
+								Travel planning app that surfaces attractions and real-time weather for selected
+								destinations.
+							</p>
+							<div className="project-stack">
+								<span>Python</span>
+								<span>Django</span>
+								<span>PostgreSQL</span>
+								<span>Weather API</span>
+								<span>CSS</span>
+								<span>HTML</span>
+							</div>
+							<div className="project-links">
+								<a
+									href="https://sei-travel-app.herokuapp.com/"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Live
+								</a>
+								<a
+									href="https://github.com/hmgraves/travel-app"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									GitHub
+								</a>
+							</div>
+						</div>
+					</article>
+
+					{/* Minesweeper */}
+					<article className="project-card project-card-small">
+						<div className="project-media">
+							<img src={mines} alt="Minesweeper game" />
+						</div>
+						<div className="project-content">
+							<h4 className="project-title">Minesweeper</h4>
+							<p className="project-type">Game · Recursion Practice</p>
+							<p className="project-description">
+								Browser-based implementation of the classic Minesweeper game, built to practice
+								recursion and game state management.
+							</p>
+							<div className="project-stack">
+								<span>JavaScript</span>
+								<span>jQuery</span>
+								<span>CSS</span>
+								<span>HTML</span>
+							</div>
+							<div className="project-links">
+								<a
+									href="https://hmgraves.github.io/Minesweeper/"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Live
+								</a>
+								<a
+									href="https://github.com/hmgraves/Minesweeper"
+									className="btn project-link"
+									target="_blank"
+									rel="noreferrer"
+								>
+									GitHub
+								</a>
+							</div>
+						</div>
+					</article>
 				</div>
-
-				{/* <hr /> */}
 			</div>
-			<div className='work-school-gradient'></div>
-			<div className='container school'>
-
-				<h2>SCHOOL PROJECTS</h2>
-				{/* TackTrunk */}
-				<div className='work-container-1'>
-					<h3 className='title-1 title'>TackTrunk</h3>
-					<p className='about-1'>Made in 2022, TackTrunk is a full CRUD React application built with the busy horse barn in mind. Tack Trunk allows users to log in and add/categorize their personal tack. Users are also able to schedule lessons with any of the barn's trainers.</p>
-					<p className='built-1'>
-						Built with:
-						<br /><br />
-						<i className="devicon-react-original small-icon"></i>
-						<i className="devicon-javascript-plain opposite small-icon"></i>
-						<i className="devicon-nodejs-plain small-icon"></i>
-						<i className="devicon-mongodb-plain small-icon"></i>
-						<i className="devicon-express-original small-icon"></i>
-						<i className="devicon-css3-plain small-icon"></i>
-						<i className="devicon-html5-plain small-icon"></i>
-					</p>
-					<img className="work-img img-1" src={tackpage} alt="tackpage..." />
-					<div className='btn-block links-1'>
-						<a href="https://tacktrunk.herokuapp.com/" className='btn link-1' target="_blank" rel="noreferrer">
-							Heroku
-						</a>
-						<a href="https://github.com/hmgraves/TackTrunk" className='btn link-2' target="_blank" rel="noreferrer">
-							GitHub
-						</a>
-					</div>
-				</div>
-				<hr />
-
-
-				{/* Vines */}
-				<div className='work-container-2'>
-					<h3 className='title title-2'>Vines</h3>
-					<p className='about-2'>Made in 2022, Vines is a full CRUD application built for project two at General Assembly. Vines is a personalized database for you to store, inventory, and manage your houseplants.</p>
-					<p className='built-2'>
-						Built with:
-						<br /><br />
-						<i className="devicon-javascript-plain opposite small-icon"></i>
-						<i className="devicon-nodejs-plain small-icon"></i>
-						<i className="devicon-mongodb-plain small-icon"></i>
-						<i className="devicon-express-original small-icon"></i>
-						<i className="devicon-css3-plain small-icon"></i>
-						<i className="devicon-html5-plain small-icon"></i>
-					</p>
-					<img className="work-img img-2" src={vines} alt="vines..." />
-					<div className='btn-block links-2'>
-						<a href="https://vines-app.herokuapp.com/" className='btn' target="_blank" rel="noreferrer">
-							Heroku
-						</a>
-						<a href="https://github.com/hmgraves/Plant-app" className='btn link-2' target="_blank" rel="noreferrer">
-							GitHub
-						</a>
-					</div>
-				</div>
-				<hr />
-
-				{/* Car Collector */}
-				<div className='work-container-1'>
-					<h3 className='title-1 title'>CarCollector</h3>
-					<p className='about-1'>Made in 2022, CarCollector is a full-stack CRUD app using Django and Python. CarCollector is designed for you to keep track of your cars, including maintenance and any additional options you might upgrade your car with.</p>
-					<p className='built-1'>
-						Built with:
-						<br /><br />
-						<i className="devicon-python-plain small-icon"></i>
-						<i className="devicon-postgresql-plain small-icon"></i>
-						<i className="devicon-django-plain small-icon"></i>
-						<i className="devicon-css3-plain small-icon"></i>
-						<i className="devicon-html5-plain small-icon"></i>
-					</p>
-					<img className="work-img img-1" src={cars} alt="cars..." />
-					<div className='btn-block links-1'>
-
-						<a href="https://github.com/hmgraves/carcollector" className='btn' target="_blank" rel="noreferrer">
-							GitHub
-						</a>
-					</div>
-				</div>
-				<hr />
-
-				{/* Travel */}
-				<div className='work-container-2'>
-					<h3 className='title title-2'>Travel</h3>
-					<p className='about-2'>Made in 2022, This travel app, built as a group project, allows users to choose a destination and view attractions at that destination. Also included is Weatherbug API, so users can see real-time weather at their chosen location.</p>
-					<p className='built-2'>
-						Built with:
-						<br /><br />
-						<i className="devicon-python-plain small-icon"></i>
-						<i className="devicon-postgresql-plain small-icon"></i>
-						<i className="devicon-django-plain small-icon"></i>
-						<i className="devicon-css3-plain small-icon"></i>
-						<i className="devicon-html5-plain small-icon"></i>
-					</p>
-					<img className="work-img img-2" src={travel} alt="mines..." />
-					<div className='btn-block links-2'>
-						<a href="https://sei-travel-app.herokuapp.com/" className='btn link-1' target="_blank" rel="noreferrer">
-							Heroku
-						</a>
-						<a href="https://github.com/hmgraves/travel-app" className='btn link-2' target="_blank" rel="noreferrer">
-							GitHub
-						</a>
-					</div>
-				</div>
-				<hr />
-
-				{/* Minesweeper */}
-				<div className='work-container-1'>
-					<h3 className='title-1 title'>Minesweeper</h3>
-					<p className='about-1'>This is the classic game, Minesweeper. This was the second game ever built by Hannah. The most difficult part of building this game, was using recursion!</p>
-					<p className='built-1'>
-						Built with:
-						<br /><br />
-						<i className="devicon-javascript-plain opposite small-icon"></i>
-						<i className="devicon-css3-plain small-icon"></i>
-						<i className="devicon-html5-plain small-icon"></i>
-						<i className="devicon-jquery-plain small-icon"></i>
-					</p>
-					<img className="work-img img-1" src={mines} alt="mines..." />
-					<div className='btn-block links-1'>
-						<a href="https://hmgraves.github.io/Minesweeper/"  className='btn' target="_blank" rel="noreferrer">
-							GH Pages
-						</a>
-						<a href="https://github.com/hmgraves/Minesweeper" className='btn link-2' target="_blank" rel="noreferrer">
-							GitHub 
-						</a>
-					</div>
-				</div>
-
-			</div>
-		</>
+		</section>
 	);
-
 };
 
 export default Work;

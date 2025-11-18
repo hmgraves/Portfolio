@@ -1,36 +1,74 @@
-.contact-container {
-	background-color: var(--rose);
-	padding: 10px 10% 0 10%;
-	display: grid;
-	grid-template-columns: repeat(2 auto);
-	grid-template-rows: 100px 150px 50px;
-	grid-gap: 20px;
-
-}
-.contact-title {
-	grid-column: 1 / 3;
-	grid-row: 1 / 2;
+.contact-section {
+  background: var(--violet);
+  padding: 3rem 1.5rem 3rem;
 }
 
-.linkedin {
-	grid-column: 1 / 2;
-	grid-row: 2 / 3;
-	display: flex;
-	justify-content: center;
+.contact-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.github {
-	grid-column: 2 / 3;
-	grid-row: 2 / 3;
+.contact-inner h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
 }
 
-
-.email {
-	grid-row: 3 / 4;
-	grid-column: span 2;
+.contact-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
-.contact {
-	display: flex;
-	justify-content: center;
+.contact-email {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid #f97316;
+  background: #fff7ed;
+  color: #7c2d12;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-email span {
+  font-weight: 600;
+}
+
+.contact-email:hover {
+  background: #ffedd5;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: #111827;
+  font-size: 0.9rem;
+}
+
+.contact-link i {
+  font-size: 1.5rem;
+}
+
+.contact-link:hover {
+  color: #2563eb;
+}
+
+@media (max-width: 480px) {
+  .contact-links {
+    flex-direction: column;
+  }
 }

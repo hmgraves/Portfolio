@@ -1,120 +1,144 @@
-import './Skills.css';
-import React from 'react';
+import "./Skills.css";
 
 const Skills = () => {
-	return (
-		<>
-			<div className="container skills">
-				<h2 className='skills-title'>SKILLS & TOOLS</h2>
-				<div className="icon icon-1">
-					<i className="devicon devicon-react-original"></i>
-					<h4 className='icon-name'>React</h4>
-				</div>
-				<div className="icon icon-2">
-					<i className="devicon devicon-angularjs-plain"></i>
-					<h4 className='icon-name'>AngularJS</h4>
-				</div>
-				<div className="icon icon-3">
-					<i className="devicon devicon-javascript-plain opposite"></i>
-					<h4 className='align-ctr'>JavaScript</h4>
-				</div>
-				<div className="icon icon-4">
-					<i className="devicon devicon-typescript-plain opposite"></i>
-					<h4 className='icon-name'>Typescript</h4>
-				</div>
-				<div className="icon icon-5">
-					<i className="devicon devicon-electron-original"></i>
-					<h4 className='align-ctr'>Electron</h4>
-				</div>
-				<div className="icon icon-6">
-					<i className="devicon devicon-python-plain"></i>
-					<h4 className='align-ctr'>Python</h4>
-				</div>
-				<div className="icon icon-7">
-					<i className="devicon devicon-express-original"></i>
-					<h4 className='align-ctr'>Express</h4>
-				</div>
-				<div className="icon icon-8">
-					<i className="devicon devicon-nodejs-plain"></i>
-					<h4 className='align-ctr'>node.js</h4>
-				</div>
-				<div className="icon icon-9">
-					<i className="devicon devicon-npm-original-wordmark"></i>
-					<h4 className='icon-name'>npm</h4>
-				</div>
-				<div className="icon icon-10">
-					<i className="devicon devicon-mongodb-plain"></i>
-					<h4 className='align-ctr'>mongoDB</h4>
-				</div>
-				<div className="icon icon-11">
-					<i className="devicon devicon-postgresql-plain"></i>
-					<h4 className='align-ctr'>PostgreSQL</h4>
-				</div>
-				<div className="icon icon-12">
-					<i className="devicon devicon-django-plain"></i>
-					<h4 className='align-ctr'>Django</h4>
-				</div>
-				<div className="icon icon-13">
-					<i className="devicon devicon-css3-plain"></i>
-					<h4 className='align-ctr'>CSS3</h4>
-				</div>
-				<div className="icon icon-14">
-					<i className="devicon devicon-sass-original"></i>
-					<h4 className='icon-name'>Sass</h4>
-				</div>
-				<div className="icon icon-15">
-					<i className="devicon devicon-html5-plain"></i>
-					<h4 className='align-ctr'>HTML5</h4>
-				</div>
-				<div className="icon icon-16">
-					<i className="devicon devicon-git-plain"></i>
-					<h4 className='align-ctr'>git</h4>
-				</div>
-				<div className="icon icon-17">
-					<i className="devicon devicon-amazonwebservices-plain-wordmark"></i>
-					<h4 className='align-ctr'>AWS</h4>
-				</div>
-				<div className="icon icon-18">
-				<i className="devicon devicon-vscode-plain"></i>
-					<h4 className='align-ctr'>vscode</h4>
-				</div>
-				<div className="icon icon-19">
-					<i className="devicon devicon-jquery-plain"></i>
-					<h4 className='align-ctr'>jQuery</h4>
-				</div>
-				<div className="icon icon-20">
-					<i className="devicon devicon-ionic-original"></i>
-					<h4 className='icon-name'>Ionic</h4>
-				</div>
-				<div className="icon icon-21">	
-					<i className="devicon devicon-storybook-plain"></i>
-					<h4 className='icon-name'>Storybook</h4>
-				</div>
-				<div className="icon icon-22">	
-					<i className="devicon devicon-circleci-plain"></i>
-					<h4 className='icon-name'>CircleCI</h4>
-				</div>
-				<div className="icon icon-23">	
-					<i className="devicon devicon-ngrx-plain"></i>
-					<h4 className='icon-name'>NgRx</h4>
-				</div>
-				<div className="icon icon-24">	
-					<i className="devicon devicon-angularmaterial-plain"></i>
-					<h4 className='icon-name'>AngularMaterial</h4>
-				</div>
-				<div className="icon icon-25">	
-					<i className="devicon devicon-materialui-plain"></i>
-					<h4 className='icon-name'>MUI</h4>
-				</div>
-			</div>
-			<section className='container certs'>
-				<h2>Certificates</h2>
-				WAI0.1x: Introduction to Web Accessibility
-			</section>
-		</>
+  return (
+    <section className="skills-section" id="skills">
+      <div className="skills-inner">
+        <h2>Skills &amp; Tools</h2>
+        <p className="skills-intro">
+          I specialize in modern frontend engineering with full-stack depth and a strong focus on
+          usability, performance, and reliable delivery.
+        </p>
 
+        <div className="skills-grid">
+          <div className="skills-group">
+            <h3>Frontend</h3>
+            <div className="skills-icons">
+              <div className="skill-item">
+                <i className="devicon devicon-react-original"></i>
+                <span>React</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-angularjs-plain"></i>
+                <span>Angular</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-electron-original"></i>
+                <span>Electron</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-javascript-plain"></i>
+                <span>JavaScript</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-typescript-plain"></i>
+                <span>TypeScript</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-css3-plain"></i>
+                <span>CSS3 / Sass</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-html5-plain"></i>
+                <span>HTML5</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-angularmaterial-plain"></i>
+                <span>Angular Material</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-materialui-plain"></i>
+                <span>MUI</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-ionic-original"></i>
+                <span>Ionic</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-storybook-plain"></i>
+                <span>Storybook</span>
+              </div>
+            </div>
+          </div>
 
-	);
+          <div className="skills-group">
+            <h3>Backend &amp; Data</h3>
+            <div className="skills-icons">
+              <div className="skill-item">
+                <i className="devicon devicon-nodejs-plain"></i>
+                <span>Node.js</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-express-original"></i>
+                <span>Express</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-python-plain"></i>
+                <span>Python</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-postgresql-plain"></i>
+                <span>PostgreSQL</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-mongodb-plain"></i>
+                <span>MongoDB</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-django-plain"></i>
+                <span>Django</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-ngrx-plain"></i>
+                <span>NgRx</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skills-group">
+            <h3>Cloud &amp; DevOps</h3>
+            <div className="skills-icons">
+              <div className="skill-item">
+                <i className="devicon devicon-amazonwebservices-plain-wordmark"></i>
+                <span>AWS</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-circleci-plain"></i>
+                <span>CircleCI</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-git-plain"></i>
+                <span>Git</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-npm-original-wordmark"></i>
+                <span>npm</span>
+              </div>
+              <div className="skill-item">
+                <i className="devicon devicon-vscode-plain"></i>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skills-group">
+            <h3>Also Worked With</h3>
+            <div className="skills-tags">
+              <span>jQuery</span>
+              <span>Web Accessibility</span>
+              <span>Design Systems</span>
+              <span>UI/UX Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+        <section className="skills-certs">
+          <h3>Certificates</h3>
+          <p>WAI0.1x: Introduction to Web Accessibility</p>
+        </section>
+      </div>
+    </section>
+  );
 };
 
 export default Skills;
