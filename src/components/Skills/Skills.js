@@ -136,6 +136,8 @@ const Skills = () => {
 							<span>Web Accessibility</span>
 							<span>Design Systems</span>
 							<span>UI/UX Collaboration</span>
+							<span>Figma</span>
+							<span>Jira</span>
 							<span>SEO</span>
 							<span>Google Analytics</span>
 						</div>
