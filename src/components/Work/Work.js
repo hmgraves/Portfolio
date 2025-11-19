@@ -74,6 +74,7 @@ const Work = () => {
 							<span>PostgreSQL</span>
 							<span>Storybook</span>
 							<span>CircleCI</span>
+							<span>Docker</span>
 						</div>
 					</article>
 
